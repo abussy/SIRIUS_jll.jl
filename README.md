@@ -16,6 +16,10 @@ The tarballs for `SIRIUS_jll.jl` have been built from these sources:
 
 `SIRIUS_jll.jl` is available for the following platforms:
 
+* `Linux aarch64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=5.0.0, mpi=mpich}` (`aarch64-linux-gnu-libgfortran5-cxx03-mpi+mpich`)
+* `Linux aarch64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=5.0.0, mpi=openmpi}` (`aarch64-linux-gnu-libgfortran5-cxx03-mpi+openmpi`)
+* `Linux aarch64 {cxxstring_abi=cxx11, libc=glibc, libgfortran_version=5.0.0, mpi=mpich}` (`aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpich`)
+* `Linux aarch64 {cxxstring_abi=cxx11, libc=glibc, libgfortran_version=5.0.0, mpi=openmpi}` (`aarch64-linux-gnu-libgfortran5-cxx11-mpi+openmpi`)
 * `Linux x86_64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=5.0.0, mpi=mpich}` (`x86_64-linux-gnu-libgfortran5-cxx03-mpi+mpich`)
 * `Linux x86_64 {cxxstring_abi=cxx03, libc=glibc, libgfortran_version=5.0.0, mpi=openmpi}` (`x86_64-linux-gnu-libgfortran5-cxx03-mpi+openmpi`)
 * `Linux x86_64 {cxxstring_abi=cxx11, libc=glibc, libgfortran_version=5.0.0, mpi=mpich}` (`x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich`)
@@ -27,7 +31,6 @@ The following JLL packages are required by `SIRIUS_jll.jl`:
 
 * `COSTA_jll`
 * `CompilerSupportLibraries_jll`
-* `Doxygen_jll`
 * `GSL_jll`
 * `HDF5_jll`
 * `LLVMOpenMP_jll`

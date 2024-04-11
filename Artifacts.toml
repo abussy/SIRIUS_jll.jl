@@ -1,4 +1,56 @@
 [[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "301e65be9097e104a5e2e0ee0bcd909bcbf0a802"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "23390b038169d92f8a4bd5aba36fc1e5f519c43e47c963bb419b07828af0aa65"
+    url = "https://github.com/abussy/SIRIUS_jll.jl/releases/download/SIRIUS-v7.5.2+0/SIRIUS.v7.5.2.aarch64-linux-gnu-libgfortran5-cxx03-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "87e8c1ff2df4bdb6a761b0acacf8c74614a22225"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "2f65f39e4cb8c7b4e3c8a757d9b40780da8f79de5ee7573fc2ec3bd59934f326"
+    url = "https://github.com/abussy/SIRIUS_jll.jl/releases/download/SIRIUS-v7.5.2+0/SIRIUS.v7.5.2.aarch64-linux-gnu-libgfortran5-cxx03-mpi+openmpi.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c7c27ab09f93275434b2f7486e7ca0185532be35"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "2e1c2f972bbdc83ea110cc539b64d196ca4561195a743aa7e3ab52dc50e63721"
+    url = "https://github.com/abussy/SIRIUS_jll.jl/releases/download/SIRIUS-v7.5.2+0/SIRIUS.v7.5.2.aarch64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[SIRIUS]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f166b319a21c5fdb5aafa5f22bfc09a4e4948052"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "openmpi"
+os = "linux"
+
+    [[SIRIUS.download]]
+    sha256 = "533271d15481d907f21eff94b9565b352e5413371f0f298434bbd3a6f9970715"
+    url = "https://github.com/abussy/SIRIUS_jll.jl/releases/download/SIRIUS-v7.5.2+0/SIRIUS.v7.5.2.aarch64-linux-gnu-libgfortran5-cxx11-mpi+openmpi.tar.gz"
+[[SIRIUS]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "a8b6de8934db778d84fe00a92ec06104688553fc"
